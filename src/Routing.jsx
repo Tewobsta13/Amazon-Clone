@@ -10,7 +10,7 @@ import Result from "./Pages/Result/Result";
 function Routing() {
   return (
     <>
-      <Routes basename="/Amazon-Clone">
+      <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/auth" element={<Auth />} />
