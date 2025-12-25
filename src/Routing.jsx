@@ -1,16 +1,16 @@
-import { Route, Routes } from 'react-router-dom';
-import Auth from './Pages/Auth/Auth.jsx';
-import Cart from './Pages/Cart/Cart';
-import Landing from './Pages/Landing/Landing';
-import Orders from './Pages/Orders/Orders';
-import Payment from './Pages/Payment/Payment';
-import ProductDetail from './Pages/ProductDetail/ProductDetail';
-import Result from './Pages/Result/Result';
+import { Route, Routes } from "react-router-dom";
+import Auth from "./Pages/Auth/Auth.jsx";
+import Cart from "./Pages/Cart/Cart";
+import Landing from "./Pages/Landing/Landing";
+import Orders from "./Pages/Orders/Orders";
+import Payment from "./Pages/Payment/Payment";
+import ProductDetail from "./Pages/ProductDetail/ProductDetail";
+import Result from "./Pages/Result/Result";
 
 function Routing() {
   return (
     <>
-      <Routes>
+      <Routes basename="/Amazon-Clone">
         <Route path="/" element={<Landing />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/auth" element={<Auth />} />
